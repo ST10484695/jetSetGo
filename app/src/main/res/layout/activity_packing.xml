@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PackingActivity">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10sp"
+        android:text="@string/btnBack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etClothes"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter clothes"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etToiletries"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter Toiletries"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etShoes"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter Shoes"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etDocuments"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter Documents"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etTravelDays"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter How Long You Will Be Travelling For"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10sp"
+        android:text="@string/btnDisplay" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvClothes"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvToiletries"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvShoes"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvDocuments"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10sp"
+        android:text="@string/btnClear" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">jetSetGo</string>
+    <string name="btnPack">Pack</string>
+    <string name="tvName">JetSetGo!!!</string>
+    <string name="btnBack">Back</string>
+    <string name="tvClothes"></string>
+    <string name="tvToiletries"></string>
+    <string name="tvShoes"></string>
+    <string name="tvDocuments"></string>
+    <string name="etTravelDays">Travel Days</string>
+    <string name="btnDisplay">Display</string>
+    <string name="etClothes">Clothes</string>
+    <string name="etShoes">Shoes</string>
+    <string name="etDocuments">Documents</string>
+    <string name="btnClear">Clear</string>
+</resources>

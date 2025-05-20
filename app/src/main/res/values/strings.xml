@@ -7,10 +7,15 @@
     <string name="tvToiletries"></string>
     <string name="tvShoes"></string>
     <string name="tvDocuments"></string>
-    <string name="etTravelDays">Travel Days</string>
+    <string name="etTravelDays">Enter How Long You Will Be Traveling For</string>
     <string name="btnDisplay">Display</string>
-    <string name="etClothes">Clothes</string>
-    <string name="etShoes">Shoes</string>
-    <string name="etDocuments">Documents</string>
+    <string name="etClothes">Enter Clothes</string>
+    <string name="etShoes">Enter Shoes</string>
+    <string name="etDocuments">Enter Documents</string>
+    <string name="etToiletries">Enter Toiletries</string>
     <string name="btnClear">Clear</string>
+    <string name="pastelYellow">#FCFC94</string>
+    <string name="blue">#006884</string>
+    <string name="gray">#6c6868</string>
+    <string name="white">#FFFFFF</string>
 </resources>

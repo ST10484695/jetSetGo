@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/img_1"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -26,6 +27,7 @@
             android:layout_height="450dp"
             android:layout_gravity="center"
             android:layout_margin="40sp"
+            android:textColor="#006884"
             android:fontFamily="@font/bagel_fat_one"
             android:text="@string/tvName"
             android:textAlignment="center"
@@ -36,6 +38,9 @@
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_margin="50dp"
-            android:text="@string/btnPack" />
+            android:text="@string/btnPack"
+            android:backgroundTint="#FCFC94"
+            android:textColor="#6c6868"
+            android:textSize="20sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
